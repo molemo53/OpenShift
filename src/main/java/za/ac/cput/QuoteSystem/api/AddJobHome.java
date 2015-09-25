@@ -25,6 +25,12 @@ public class AddJobHome {
     @Autowired
     private AddJobService service;
 
+    @RequestMapping(value = "/home", method = RequestMethod.GET)
+    public String getHomePage(){
+        return "Quote System";
+    }
+
+
     @RequestMapping(value = "/jobs/", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<List<AddJob>> listResponseEntity() {
         List<AddJob> addJobs = service.findAll();
