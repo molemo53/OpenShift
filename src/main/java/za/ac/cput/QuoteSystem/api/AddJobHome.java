@@ -19,7 +19,7 @@ import java.util.List;
  * Created by student on 2015/09/21.
  */
 @RestController
-@RequestMapping("/api/**")
+@RequestMapping("/api/")
 public class AddJobHome {
 
     @Autowired
