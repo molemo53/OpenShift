@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="3628094907">
-    <data-source source="LOCAL" name="MySQL - QuoteDb@localhost" uuid="ba081644-150e-4752-bb27-97a3b50981f3">
+  <component name="DataSourceManagerImpl" format="xml" hash="3638626358">
+    <data-source source="LOCAL" name="MySQL - quote@localhost" uuid="8255622e-cbee-468f-91dc-984a80093981">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/QuoteDb</jdbc-url>
+      <jdbc-url>jdbc:mysql://localhost:3306/quote</jdbc-url>
       <driver-properties>
         <property name="zeroDateTimeBehavior" value="convertToNull" />
         <property name="tinyInt1isBit" value="false" />

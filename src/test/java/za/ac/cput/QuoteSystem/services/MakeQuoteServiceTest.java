@@ -20,7 +20,7 @@ import java.util.List;
 
 //@SpringApplicationConfiguration(classes= {App.class})
 //@WebAppConfiguration
-public class MakeQuoteServiceTest extends AbstractTestNGSpringContextTests {
+public class MakeQuoteServiceTest {
 
     private Long id;
    // @Autowired

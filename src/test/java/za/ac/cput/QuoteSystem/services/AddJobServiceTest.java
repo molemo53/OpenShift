@@ -19,7 +19,7 @@ import java.util.List;
  */
 //@SpringApplicationConfiguration(classes= {App.class})
 //@WebAppConfiguration
-public class AddJobServiceTest extends AbstractTestNGSpringContextTests {
+public class AddJobServiceTest  {
 
 
     private Long id;

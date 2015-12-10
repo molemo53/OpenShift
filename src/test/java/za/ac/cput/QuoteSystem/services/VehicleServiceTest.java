@@ -19,7 +19,7 @@ import java.util.List;
  */
 //@SpringApplicationConfiguration(classes= {App.class})
 //@WebAppConfiguration
-public class VehicleServiceTest extends AbstractTestNGSpringContextTests {
+public class VehicleServiceTest  {
     private Long id;
    // @Autowired
     VehicleRepository repository;
